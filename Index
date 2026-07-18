@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>陳家輝 Chia-Huei Chen｜議題溝通與專案執行企劃</title>
+<meta name="description" content="陳家輝（Chia-Huei Chen），橫跨出版、文化行銷與環境倡議的專案企劃。專長為議題溝通、專案全流程執行、團隊培訓與生成式 AI 應用。從企劃到落地，讓值得做的事真的發生。" />
+<meta name="author" content="陳家輝 Chia-Huei Chen" />
+
+<!-- 部署後請把 YOUR-DOMAIN 換成正式網域 -->
+<link rel="canonical" href="https://YOUR-DOMAIN/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:site_name" content="陳家輝 Chia-Huei Chen" />
+<meta property="og:title" content="陳家輝 Chia-Huei Chen｜議題溝通與專案執行" />
+<meta property="og:description" content="橫跨出版、文化行銷與環境倡議的專案企劃。從企劃到落地，我在意細節中的價值實踐。" />
+<meta property="og:url" content="https://YOUR-DOMAIN/" />
+<meta property="og:image" content="https://YOUR-DOMAIN/assets/images/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="陳家輝個人網站主視覺：從企劃到落地，我在意細節中的價值實踐。" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="陳家輝 Chia-Huei Chen｜議題溝通與專案執行" />
+<meta name="twitter:description" content="橫跨出版、文化行銷與環境倡議的專案企劃。從企劃到落地，我在意細節中的價值實踐。" />
+<meta name="twitter:image" content="https://YOUR-DOMAIN/assets/images/og-image.png" />
+
+<!-- Favicon -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="favicon.svg" />
+<meta name="theme-color" content="#1F4A46" />
+
+<!-- Schema.org Person -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"陳家輝",
+  "alternateName":"Chia-Huei Chen",
+  "jobTitle":"議題溝通與專案執行企劃",
+  "email":"mailto:akira1989720@gmail.com",
+  "url":"https://YOUR-DOMAIN/",
+  "sameAs":["https://www.linkedin.com/in/akirachen1989720"]
+}
+</script>
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip" href="#main">跳到主要內容</a>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#hero" aria-label="陳家輝 首頁">
+      陳家輝
+      <span class="en">CHIA-HUEI CHEN</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">選單 ＋</button>
+    <nav class="nav-links" id="navLinks" aria-label="主要導覽">
+      <a class="navlink" href="#about">關於<small>About</small></a>
+      <a class="navlink" href="#capabilities">能力<small>Capabilities</small></a>
+      <a class="navlink" href="#projects">專案<small>Projects</small></a>
+      <a class="navlink" href="#experience">經歷<small>Experience</small></a>
+      <a class="navlink" href="#skills">技能<small>Skills</small></a>
+      <a class="navlink" href="#contact">聯絡<small>Contact</small></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" class="hero" style="border-top:none;">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="sidenote">台南玉井 <span class="arrow">→</span> 台北</p>
+          <h1 class="reveal">從企劃到落地，我在意細節中的價值實踐。</h1>
+          <p class="hero-name reveal">陳家輝 Chia-Huei Chen</p>
+          <div class="position reveal">
+            <div class="zh">議題溝通與專案執行</div>
+            <div class="en">Project Planner — Content, Engagement &amp; Training</div>
+          </div>
+          <p class="hero-lede reveal"><strong>十年以上</strong>的職涯橫跨出版、文化與環境倡議，我在意的不只是把企劃寫好，而是<span class="hl">負責讓它一路走到結案</span>。</p>
+          <div class="cta-row reveal">
+            <a class="btn btn-primary" href="#projects">查看精選專案</a>
+            <a class="btn btn-ghost" href="#contact">聯絡我</a>
+            <a class="btn btn-plain" href="#" id="resumeBtn" aria-label="下載履歷（檔案待補）">履歷下載 <span class="tag">PDF・待補</span></a>
+          </div>
+        </div>
+        <figure class="hero-portrait-fig reveal" style="margin:0;">
+          <img class="hero-portrait-img" src="assets/images/portrait.jpg" width="412" height="515"
+               alt="陳家輝於山頂手持三角點標示石的照片，戴漁夫帽、穿芥黃色上衣，背景為高山雲景" loading="eager" decoding="async" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about">
+    <div class="wrap">
+      <h2 class="eyebrow">About ／ 關於</h2>
+      <div class="prose">
+        <p class="lede">我來自台南玉井，念的是國文系，從出版編輯入行，之後做過文化行銷、環境募款與教育培訓。這些看似不相干的經歷，其實都在回答同一個問題：<strong>一個重要的訊息，要怎麼被對的人聽見、並且真的產生行動</strong>。</p>
+        <p style="margin-top:1.4em;">我習慣同時管理多條進度、把風險想在前面，也重視把專案收尾做好——結案報告、請款與物資盤點，這些環節往往決定一個專案能不能真正完成。比起企劃案好不好看，我更在意它能不能和團隊一起被執行出來。</p>
+      </div>
+      <p class="path" aria-label="職涯脈絡">
+        <span class="node">出版編輯</span><span class="sep">→</span>
+        <span class="node">文化行銷</span><span class="sep">→</span>
+        <span class="node">教育培訓</span><span class="sep">→</span>
+        <span class="node">環境倡議</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== CAPABILITIES ===================== -->
+  <section id="capabilities">
+    <div class="wrap">
+      <h2 class="eyebrow">Capabilities ／ 我能解決的問題</h2>
+      <div class="caps">
+        <article class="cap">
+          <div class="cap-num">01</div>
+          <div>
+            <h3>你有一個好理念，需要有人把它變成做得出來的事。</h3>
+            <p>我做過企劃案真正落地的那一段——<strong>十天繞境的物資保管、燈會的備援電力、街頭表演賽的動線與人力調度</strong>。所以我在寫企劃時，會把「怎麼執行、哪裡可能出錯」一起想進去。</p>
+          </div>
+        </article>
+        <article class="cap">
+          <div class="cap-num">02</div>
+          <div>
+            <h3>你需要有人協助把一支隊伍、一套訓練從頭建起來。</h3>
+            <p>我在地球公民基金會<strong>協助從零成立募款團隊</strong>，也在綠色和平設計過新人到進階的培訓、媒合培訓師、開發培訓場地，並規劃、執行、維護與持續改善志工的培訓與社群經營流程。我替<strong>四種不同對象設計過課程</strong>：街頭募款新人、NGO 專職、國小學生、行動志工。</p>
+          </div>
+        </article>
+        <article class="cap">
+          <div class="cap-num">03</div>
+          <div>
+            <h3>你有一個複雜的議題，需要被一般人聽懂。</h3>
+            <p>我獨立寫過講綱、做過簡報，擔任<strong>線上募款講座的講師與主持人</strong>，也在街頭第一線，把環境議題說明到讓民眾願意定期捐款支持。國文系的底子，讓我清楚同一句話換個說法，效果差在哪裡。</p>
+          </div>
+        </article>
+        <article class="cap">
+          <div class="cap-num">04</div>
+          <div>
+            <h3>你需要一個能寫、能編、也能拍的內容執行者。</h3>
+            <p>我做過<strong>教科書與童書編輯、文化刊物執行編輯</strong>，也撰寫過政府標案服務建議書，並長期以攝影紀錄活動現場。文字、編輯與影像，我都能親自處理。</p>
+          </div>
+        </article>
+        <article class="cap">
+          <div class="cap-num">05</div>
+          <div>
+            <h3>你想用 AI 讓工作流程更有效率，但不知道從哪開始。</h3>
+            <p>我每天用生成式 AI 處理企劃與文件流程，也<strong>建立過客製化的 Gemini Gem</strong> 協助資訊彙整，並與 AI 協作製作過幾個網頁小工具。這些是我的工作方法，不是我的工程專業。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SELECTED PROJECTS ===================== -->
+  <section id="projects">
+    <div class="wrap">
+      <h2 class="eyebrow">Selected Projects ／ 精選專案</h2>
+
+      <!-- 專案一 -->
+      <article class="proj reveal">
+        <div class="proj-media ph" role="img" aria-label="行動裝備與志工培訓工作照 placeholder">
+          <span class="ph-label"><b>圖片待補</b>建議 16:9・原創培訓現場照<br>（社群截圖不可用，詳見說明）</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-meta">
+            <span class="badge">綠色和平</span>
+            <span class="badge">2024 – 迄今</span>
+            <span class="badge badge-role">角色・主責執行</span>
+          </div>
+          <h3>行動裝備與志工培訓體系</h3>
+          <p class="proj-summary">綠色和平的環境行動仰賴專業裝備與一群受過訓練的行動志工。這個職務橫跨兩塊：讓裝備隨時能用、讓志工隨時能上場。</p>
+          <details class="more">
+            <summary><span class="chev">▸</span> 展開背景、任務與成果</summary>
+            <div class="detail-grid">
+              <div class="dl">
+                <h4>我的角色</h4>
+                <p>主責執行（Warehouse and Training Coordinator，現職）</p>
+              </div>
+              <div class="dl">
+                <h4>核心任務</h4>
+                <p>維持行動裝備的可用狀態，並規劃、執行、維護與持續改善志工的培訓與社群經營流程。</p>
+              </div>
+              <div class="dl dl-wide">
+                <h4>執行範圍</h4>
+                <ul>
+                  <li>管理行動專業裝備，並負責裝備客製化製作（需求訪談 → 規格研擬 → 草圖 → 廠商溝通定案）</li>
+                  <li>規劃並執行志工與員工的年度技能培訓，媒合外部培訓師、協調場地與器材</li>
+                  <li>重新設計行動志工的招募管道與說明會內容</li>
+                  <li>規劃、執行、維護與持續改善行動志工的培訓與社群經營流程</li>
+                  <li>管理倉庫預算與採購，尋找更具永續性的物資來源；與綠色和平總部（GPI）交流資源</li>
+                </ul>
+              </div>
+              <div class="dl dl-wide">
+                <h4>可驗證成果</h4>
+                <p class="result">基礎行動培訓單場參與人數，<strong>由約 10 人提升至 15 人</strong>（透過招募管道與說明會內容的重新設計）。</p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <!-- 專案二 -->
+      <article class="proj reveal">
+        <figure class="proj-media" style="margin:0;">
+          <img src="assets/images/project-southtw.jpg" width="1600" height="900" loading="lazy" decoding="async"
+               alt="兩張南台灣工作照：左為向小組進行 RE100 簡報培訓，右為街頭外展與民眾對談" style="display:block;width:100%;height:100%;object-fit:cover;" />
+        </figure>
+        <div class="proj-body">
+          <div class="proj-meta">
+            <span class="badge">綠色和平・高雄</span>
+            <span class="badge">2018 – 2022</span>
+            <span class="badge badge-role">角色・主導（自主提案）</span>
+          </div>
+          <h3>綠色和平 南台灣區域市場開發</h3>
+          <p class="proj-summary">於綠色和平高雄負責環境教育與募款團隊。除帶隊之外，我自主提案往南部其他縣市拓展街頭募款據點。</p>
+          <details class="more">
+            <summary><span class="chev">▸</span> 展開背景、任務與成果</summary>
+            <div class="detail-grid">
+              <div class="dl">
+                <h4>我的角色</h4>
+                <p>主導（自主提案）</p>
+              </div>
+              <div class="dl">
+                <h4>核心任務</h4>
+                <p>為街頭募款開拓南台灣的新據點與可行方案。</p>
+              </div>
+              <div class="dl dl-wide">
+                <h4>執行範圍</h4>
+                <ul>
+                  <li>自主提案並主導南台灣（台南、高雄、嘉義、屏東）區域市場開發</li>
+                  <li>進行各縣市實地勘查、撰寫地點可行性報告，整理出四座城市的募款地圖</li>
+                  <li>於區域外展期間，開發在地組織與企業的 B2B 講座合作機會</li>
+                  <li>帶領常態 5–8 人（最高 9 人）團隊，制定 KPI、進行績效檢核與新人到進階培訓</li>
+                </ul>
+              </div>
+              <div class="dl dl-wide">
+                <h4>可驗證成果</h4>
+                <p class="result"><strong>完成四縣市的實地勘查與募款地圖</strong>，作為團隊區域拓展的依據。</p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <!-- 專案三 -->
+      <article class="proj reveal">
+        <div class="proj-media ph" role="img" aria-label="大甲媽祖繞境後勤與充電三輪車現場照 placeholder">
+          <span class="ph-label"><b>圖片待補</b>建議 16:9・原創繞境後勤照<br>（官方貼文截圖需授權，詳見說明）</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-meta">
+            <span class="badge">綠色和平</span>
+            <span class="badge">2023</span>
+            <span class="badge badge-role">角色・協助後勤</span>
+          </div>
+          <h3>氣候危機在台灣：2023 大甲媽祖繞境氣候倡議後勤</h3>
+          <p class="proj-summary">綠色和平「氣候危機在台灣：消逝中的文化地景」專案，結合 2023 年大甲媽祖繞境進行氣候倡議，途中使用太陽能充電三輪車。</p>
+          <details class="more">
+            <summary><span class="chev">▸</span> 展開背景、任務與成果</summary>
+            <div class="detail-grid">
+              <div class="dl">
+                <h4>我的角色</h4>
+                <p>協助後勤（策略面非本人決策）</p>
+              </div>
+              <div class="dl">
+                <h4>核心任務</h4>
+                <p>支援繞境期間的物資調度、後勤安排與活動紀錄。</p>
+              </div>
+              <div class="dl dl-wide">
+                <h4>執行範圍</h4>
+                <ul>
+                  <li>協助志工招募、參與繞境路線規劃、協助繞境充電三輪車製作</li>
+                  <li>活動前擔任設計物溝通窗口與驗收</li>
+                  <li>繞境全程 10 天負責設計物與物資保管、物資運輸安排、部分工作人員食宿安排、活動紀錄</li>
+                  <li>結案階段協助照片歸檔與請款行政</li>
+                </ul>
+              </div>
+              <div class="dl dl-wide">
+                <h4>可驗證成果</h4>
+                <p class="result"><strong>完成為期 10 天的跨縣市物資與後勤支援</strong>。</p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== MORE EXPERIENCE ===================== -->
+  <section id="more">
+    <div class="wrap">
+      <h2 class="eyebrow">More Experience ／ 更多經歷</h2>
+      <div class="more-grid">
+        <article class="mx">
+          <div class="yr">2016–2018</div>
+          <div>
+            <h3>《美印臺南》雙月刊 執行編輯</h3>
+            <div class="role">第 31–40 期・俠客行文創任內</div>
+            <p>台南市政府文化局委託、俠客行文創承接的城市文化刊物。我擔任連續多期的執行編輯，負責內容規劃與編務執行，並參與撰稿、採訪與現場攝影，亦撰寫該編印案的服務建議書。參與第 31 至 40 期共 10 期編務。</p>
+          </div>
+        </article>
+        <article class="mx">
+          <div class="yr">2017</div>
+          <div>
+            <h3>台南孔廟文化節〈在府城遇見經營之神—蔣元樞之旅〉</h3>
+            <div class="role">協助執行</div>
+            <p>協助台南市政府文化局文創科的孔廟文化節行銷宣傳案，以孔廟與蔣元樞為主題辦理文化導覽走讀。負責企劃討論、招募參與者、導覽器材管理、地方店家聯繫、社群經營、設計物製作、活動攝影與結案報告。</p>
+          </div>
+        </article>
+        <article class="mx">
+          <div class="yr">2021</div>
+          <div>
+            <h3>綠色和平線上募款講座 講師／主持人</h3>
+            <div class="role">講師・主持</div>
+            <p>疫情期間協助募款計畫線上轉型，擔任線上講座講師與訪談主持人，並負責簡報製作與講稿撰寫。</p>
+          </div>
+        </article>
+        <article class="mx">
+          <div class="yr">2017</div>
+          <div>
+            <h3>街藝狂饗｜全國街頭表演大賽決賽</h3>
+            <div class="role">現場執行</div>
+            <p>負責現場動線確保、演出流程維安、工讀生人力調度與緊急應變。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CAREER EXPERIENCE ===================== -->
+  <section id="experience">
+    <div class="wrap">
+      <h2 class="eyebrow">Career ／ 工作經歷</h2>
+      <div class="tl">
+        <div class="tl-row">
+          <div class="tl-yr">2024–迄今</div>
+          <div>
+            <h3 class="tl-title">環境倡議與行動支援</h3>
+            <p class="tl-org">綠色和平・Warehouse and Training Coordinator</p>
+            <p>回到綠色和平，負責行動裝備管理、志工培訓與行動後勤協調。從早年第一線的環境教育與募款，到現在後端的裝備與培訓，這段跨度讓我理解一個倡議組織「從街頭到倉庫」的完整運作。</p>
+          </div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-yr">2023–2024</div>
+          <div>
+            <h3 class="tl-title">教學與培訓</h3>
+            <p class="tl-org">臺南市立大灣國小・電腦科代理教師</p>
+            <p>任教三至五年級。這段經歷讓我的培訓能力多了一個對象——會教成人的人，未必教得動小學三年級。它也直接銜接了我現在的志工培訓工作。</p>
+          </div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-yr">2022–2023</div>
+          <div>
+            <h3 class="tl-title">募款團隊組建與帶領</h3>
+            <p class="tl-org">地球公民基金會・募款組組長</p>
+            <p>協助基金會從零成立募款團隊，涵蓋招募、教育訓練、公眾溝通與 KPI 管理。（屬環境倡議階段）</p>
+          </div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-yr">2018–2022</div>
+          <div>
+            <h3 class="tl-title">環境教育與街頭募款帶隊</h3>
+            <p class="tl-org">綠色和平・街頭募款教育團隊組長（高雄）</p>
+            <p>帶領常態 5–8 人（最高 9 人）團隊，負責環境教育與募款、培訓、績效檢核，並自主提案拓展南台灣區域。（詳見精選專案）</p>
+          </div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-yr">2016–2018</div>
+          <div>
+            <h3 class="tl-title">文化行銷與地方專案</h3>
+            <p class="tl-org">俠客行文創顧問有限公司・企劃專案執行</p>
+            <p>經手政府標案企劃、文化刊物編輯、藝術節與文化節執行。一個案子從發想、議價、現場到結案，我都參與其中，也常需要橫向整合不同環節。</p>
+          </div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-yr">2014–2016</div>
+          <div>
+            <h3 class="tl-title">出版編輯</h3>
+            <p class="tl-org">南一書局／尖端出版／小牛頓／巴巴文化（四家）</p>
+            <p>這兩年間我歷經四家出版社的編輯工作，涵蓋教科書、輕小說、兒童科普與童書。它給我的是文字的紀律：嚴謹、分工、對每一個細節負責。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills">
+    <div class="wrap">
+      <h2 class="eyebrow">Skills &amp; Tools ／ 技能與工具</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>企劃與內容</h3>
+          <p>活動企劃與執行、文案撰寫、內容規劃、政府標案服務建議書、刊物編輯、簡報與講綱撰寫、活動攝影與初階影像編輯。</p>
+        </div>
+        <div class="skill">
+          <h3>執行與管理</h3>
+          <p>專案全流程（發想 → 預算 → 議價 → 現場 → 結案）、KPI 制定與績效檢核、團隊培訓與帶領、活動現場動線與風險管理、物資與後勤調度、跨部門與國際協作。</p>
+        </div>
+        <div class="skill">
+          <h3>AI 與數位工具</h3>
+          <p>生成式 AI 實務應用（ChatGPT、Gemini、Claude、Midjourney、Suno）、建立客製化 Gemini Gem、與 AI 協作製作網頁小工具。</p>
+          <p class="note-inline">＊以上為 AI 輔助的工作方法，非軟體工程專業。</p>
+          <p class="work-link"><a href="https://akira1989720.github.io/TW-Railway-km-calculator/" target="_blank" rel="noopener noreferrer">作品 ↗ 台灣鐵路捷運里程查詢（AI 協作網頁）</a></p>
+          <p class="work-link"><a href="https://akira1989720.github.io/fujii-kaze-kaohsiung-countdown/" target="_blank" rel="noopener noreferrer">作品 ↗ Fujii Kaze 高雄場倒數（AI 協作網頁）</a></p>
+        </div>
+        <div class="skill">
+          <h3>常用軟體</h3>
+          <div class="chiprow">
+            <span class="chip">Canva</span><span class="chip">Adobe Photoshop</span><span class="chip">Lightroom</span>
+            <span class="chip">PowerPoint</span><span class="chip">Word</span><span class="chip">Excel</span>
+            <span class="chip">Airtable</span><span class="chip">Google 雲端</span>
+            <span class="chip">Zoom</span><span class="chip">Google Meet</span><span class="chip">Microsoft Teams</span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>語言能力</h3>
+          <div class="chiprow">
+            <span class="chip">中文（母語）</span><span class="chip">台語（流利）</span>
+            <span class="chip">英文（中等）</span><span class="chip">日文（略懂）</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section id="education">
+    <div class="wrap">
+      <h2 class="eyebrow">Education &amp; Training ／ 教育與培訓</h2>
+      <div class="edu-row">
+        <div class="yr">2007–2011</div>
+        <div>
+          <h3 class="t">國立彰化師範大學 國文學系 學士</h3>
+        </div>
+      </div>
+      <div class="edu-row">
+        <div class="yr">2021</div>
+        <div>
+          <h3 class="t">倡議行動內訓 Basic Campaign Training</h3>
+          <div class="s">綠色和平</div>
+        </div>
+      </div>
+      <div class="edu-row">
+        <div class="yr">2021</div>
+        <div>
+          <h3 class="t">自我領導：從團隊溝通到個人職場風格分析（DISC）</h3>
+        </div>
+      </div>
+      <div class="edu-row">
+        <div class="yr">2021</div>
+        <div>
+          <h3 class="t">Search Inside Yourself: Leadership Institute</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact">
+    <div class="wrap">
+      <h2 class="eyebrow">Contact ／ 聯絡</h2>
+      <p class="contact-lede">如果你正在找一個能把理念說清楚、也能把它做出來的人，歡迎與我聊聊。</p>
+      <p class="contact-sub">我特別關注專案企劃、公共參與、教育培訓與內容策展相關的機會，也對重視永續、文化與在地連結的團隊有共鳴。</p>
+      <div class="contact-list">
+        <div class="contact-item">
+          <span class="k">Email</span>
+          <span class="v"><a href="mailto:akira1989720@gmail.com">akira1989720@gmail.com</a></span>
+        </div>
+        <div class="contact-item">
+          <span class="k">LinkedIn</span>
+          <span class="v"><a href="https://www.linkedin.com/in/akirachen1989720" target="_blank" rel="noopener noreferrer">linkedin.com/in/akirachen1989720 ↗</a></span>
+        </div>
+        <div class="contact-item">
+          <span class="k">履歷</span>
+          <span class="v"><a href="#" id="resumeBtn2" aria-label="下載履歷（檔案待補）">履歷下載</a> <span class="note-inline" style="display:inline;">（PDF 待補）</span></span>
+        </div>
+      </div>
+      <div class="focus-areas" aria-label="關注的機會方向">
+        <span class="chip">專案企劃</span>
+        <span class="chip">公共參與</span>
+        <span class="chip">教育培訓</span>
+        <span class="chip">內容策展</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="foot-inner">
+    <p class="foot-motto">「Be the change you want to see in the world.」</p>
+    <div class="foot-meta">
+      <div class="cc">© 2026 陳家輝 Chia-Huei Chen</div>
+      <div>本站內容以個人職涯經歷為主，專案細節依委託單位保密規範呈現。</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---- 手機導覽開合 ---- */
+  var toggle = document.getElementById('navToggle');
+  var links  = document.getElementById('navLinks');
+  toggle.addEventListener('click', function(){
+    var open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.textContent = open ? '關閉 ×' : '選單 ＋';
+  });
+  /* 點連結後收起手機選單 */
+  links.addEventListener('click', function(e){
+    if(e.target.closest('.navlink') && links.classList.contains('open')){
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded','false');
+      toggle.textContent = '選單 ＋';
+    }
+  });
+
+  /* ---- 履歷 placeholder：明確告知尚未提供 ---- */
+  function resumeNotice(e){
+    e.preventDefault();
+    alert('履歷 PDF 尚未提供。正式部署時將替換為實際檔案路徑（例如 /assets/陳家輝_履歷.pdf）。');
+  }
+  ['resumeBtn','resumeBtn2'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el){ el.addEventListener('click', resumeNotice); }
+  });
+
+  /* ---- Scrollspy：導覽 active 狀態 ---- */
+  var sections = ['about','capabilities','projects','experience','skills','contact'];
+  var navMap = {};
+  document.querySelectorAll('.navlink').forEach(function(a){
+    var id = a.getAttribute('href').slice(1);
+    navMap[id] = a;
+  });
+  function setCurrent(id){
+    Object.keys(navMap).forEach(function(k){
+      navMap[k].setAttribute('aria-current', k===id ? 'true' : 'false');
+    });
+  }
+  if('IntersectionObserver' in window){
+    var spy = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          var id = en.target.id;
+          /* more / education 併入鄰近項目 */
+          if(id==='more') id='projects';
+          if(id==='education') id='skills';
+          if(navMap[id]) setCurrent(id);
+        }
+      });
+    }, { rootMargin:'-45% 0px -50% 0px', threshold:0 });
+    ['about','capabilities','projects','more','experience','skills','education','contact'].forEach(function(id){
+      var el=document.getElementById(id); if(el) spy.observe(el);
+    });
+  }
+
+  /* ---- Reveal on scroll（尊重 reduced-motion） ---- */
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var revealEls = document.querySelectorAll('.reveal');
+  if(reduce || !('IntersectionObserver' in window)){
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var ro = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('in'); ro.unobserve(en.target); }
+      });
+    }, { threshold:0.12 });
+    revealEls.forEach(function(el){ ro.observe(el); });
+  }
+})();
+</script>
+<script src="main.js"></script>
+</body>
+</html>
